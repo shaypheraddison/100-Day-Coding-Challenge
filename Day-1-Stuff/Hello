@@ -1,6 +1,0 @@
-#Day 1 Code Stuff goes here! 
-print("Hello" + " " + "Shaypher") #classic print statement
-
-print('Hello ' + input("What is your name? ")) #input your name to print it out
-
-
