@@ -23,13 +23,13 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.") 
 
-first_question = input("You're at a crossroad, where do you want to go? Type 'left' or 'right'\n").lower()
+first_question = input("You're at a crossroad, where do you want to go? Type 'left' or 'right'\nn").lower()
 
 if first_question == "left":
-  second_question = input("You arrive at a lake with an island in the middle of it. Type 'wait' to wait for a boat or type 'swim' to swim across to the island.\n").lower()
+  second_question = input("You arrive at a lake with an island in the middle of it. Type 'wait' to wait for a boat or type 'swim' to swim across to the island.\nn").lower()
   
   if second_question == "wait":
-    third_question = input("You arrive to the island unharmed. You walk up the path to a house that has three doors to choose. Which one do you select? Type 'yellow' for the yellow door, type 'red' for the red door and type 'blue' for the blue door.\n").lower()
+    third_question = input("You arrive to the island unharmed. You walk up the path to a house that has three doors to choose. Which one do you select? Type 'yellow' for the yellow door, type 'red' for the red door and type 'blue' for the blue door.\nn").lower()
     
     if third_question == "red":
       print("You have found the lost treasure of Atlantis!! Congrats, you have won the game!")
