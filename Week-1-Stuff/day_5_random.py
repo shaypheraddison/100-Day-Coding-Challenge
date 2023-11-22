@@ -20,6 +20,6 @@ else:
 #select a random name from a list practice
 #import random
 names = ["Greg", "Shaun", "Liam", "Kara", "Liz", "Dave"]
-names.append("Spencer")
+names.extend("Spencer")
 random_name = random.choice(names)
 print(f"{random_name} is going to pay for the meal today!")
