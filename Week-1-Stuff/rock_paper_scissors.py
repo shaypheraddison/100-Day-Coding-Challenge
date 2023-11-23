@@ -28,7 +28,7 @@ scissors = '''
 
 import random
 
-question = int(input("What do you want to choose? Type 0 for Rock, 1 for Scissors and 2 for Paper. \n"))
+question = int(input("What do you want to choose? Type 0 for Rock, 1 for Scissors and 2 for Paper. \n\n"))
 
 if question == 0:
   print(rock)
