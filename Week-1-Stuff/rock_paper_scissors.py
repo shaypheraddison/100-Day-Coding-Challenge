@@ -1,3 +1,4 @@
+#This is from the end of DAY 4 of the coding challenge
 #The images were provided by the lesson.
 rock = '''
     _______
