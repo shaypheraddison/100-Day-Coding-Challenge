@@ -19,3 +19,40 @@ print(random_password)
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
 shuffled_list = (''.join(random.choices(letters, k=nr_letters) + random.choices(numbers, k=nr_numbers) + random.choices(symbols, k=nr_symbols)))
 print(''.join(random.sample(shuffled_list, len(shuffled_list))))
+
+#Answer from the lesson. Looks a little differen than my research 
+#Eazy Level
+# password = ""
+
+# for char in range(1, nr_letters + 1):
+#   password += random.choice(letters)
+
+# for char in range(1, nr_symbols + 1):
+#   password += random.choice(symbols)
+
+# for char in range(1, nr_numbers + 1):
+#   password += random.choice(numbers)
+
+# print(password)
+
+# #Hard Level
+# password_list = []
+
+# for char in range(1, nr_letters + 1):
+#   password_list.append(random.choice(letters))
+
+# for char in range(1, nr_symbols + 1):
+#   password_list += random.choice(symbols)
+
+# for char in range(1, nr_numbers + 1):
+#   password_list += random.choice(numbers)
+
+# print(password_list)
+# random.shuffle(password_list)
+# print(password_list)
+
+# password = ""
+# for char in password_list:
+#   password += char
+
+# print(f"Your password is: {password}")
