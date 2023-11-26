@@ -1,8 +1,4 @@
 #Day 7 project to make a hangman game
-import os
-def cls():
-    os.system('cls' if os.name=='nt' else 'clear')
-cls()
 import random
 import hangman_art as stages
 import hangman_words as word_list
@@ -24,6 +20,7 @@ for _ in range(word_length):
 
 while not end_of_game:
     guess = input("Guess a letter: ").lower()
+    print("\033[H\033[J") #This removes the previous display to have only one instance of the letters/gallows showing (MAC OS ONLY)
     if guess in display:
       print(f"You have already guessed {guess}.")
     for position in range(word_length):
