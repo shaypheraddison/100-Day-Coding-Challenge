@@ -1,7 +1,7 @@
 #Day 7 project to make a hangman game
 import random
-import hangman_art as stages
-import hangman_words as word_list
+import hangman_art as stages #file provided by lesson
+import hangman_words as word_list #file provided by lesson
 
 chosen_word = random.choice(word_list.word_list)
 word_length = len(chosen_word)
