@@ -1,6 +1,8 @@
 #Day 7 project to make a hangman game
 import os
-clear = lambda: os.system('cls')
+def cls():
+    os.system('cls' if os.name=='nt' else 'clear')
+cls()
 import random
 import hangman_art as stages
 import hangman_words as word_list
