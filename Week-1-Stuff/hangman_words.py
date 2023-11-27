@@ -1,3 +1,6 @@
+#Provided by the course
+
+
 word_list = [
 'abruptly', 
 'absurd', 
