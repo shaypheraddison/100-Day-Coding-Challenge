@@ -15,7 +15,7 @@ print(stages.logo)
 # print(f'Pssst, the solution is {chosen_word}.')
 
 display = []
-for _ in range(word_length):
+for _ in range(word_length):  #Code from the class, lines 17-19
     display += "_"
 
 while not end_of_game:
@@ -33,7 +33,7 @@ while not end_of_game:
         if lives == 0:
             end_of_game = True
             print("You lose.")
-    print(f"{' '.join(display)}")
+    print(f"{' '.join(display)}") #Code from the class
 
     if "_" not in display:
         end_of_game = True
